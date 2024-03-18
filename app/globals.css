@@ -1,12 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Tiro+Bangla&display=swap");
 
 body {
   color: #393939;
   font-family: "Inter", sans-serif;
-}
-p {
-  font-family: "Tiro Bangla", serif;
 }

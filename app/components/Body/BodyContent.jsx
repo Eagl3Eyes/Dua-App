@@ -1,6 +1,7 @@
 import React from 'react';
 import Category from '../Category/Category';
 import CategoryContent from '../CategoryContent/CategoryContent';
+import Settings from '../Settings/Settings';
 
 const BodyContent = () => {
     return (
@@ -13,7 +14,7 @@ const BodyContent = () => {
                     <CategoryContent />
                 </div>
                 <div className="hidden md:block">
-
+                    <Settings />
                 </div>
             </div>
         </>

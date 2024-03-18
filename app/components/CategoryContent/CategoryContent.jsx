@@ -9,7 +9,7 @@ const CategoryContent = () => {
   const audioRef = useRef(null);
 
   useEffect(() => {
-    fetch(`/api/duas/${selectedCategory}`) 
+    fetch(`database/api/duas/${selectedCategory}`) 
       .then((response) => response.json())
       .then((data) => setDuas(data))
       .catch((error) => console.error("Error fetching duas:", error));

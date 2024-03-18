@@ -16,21 +16,21 @@ export const FetchProvider = ({ children }) => {
 
 
     useEffect(() => {
-        fetch("/api/category")
+        fetch("/database/api/category")
             .then((response) => response.json())
             .then((data) => setCategories(data))
             .catch((error) => console.error("Error fetching categories:", error));
     }, []);
 
     useEffect(() => {
-        fetch("/api/sub_category")
+        fetch("/database/api/sub_category")
             .then((response) => response.json())
             .then((data) => setS_Categories(data))
             .catch((error) => console.error("Error fetching sub_categories:", error));
     }, []);
 
     useEffect(() => {
-        fetch("/api/duas")
+        fetch("/database/api/duas")
             .then((response) => response.json())
             .then((data) => setDuas(data))
             .catch((error) => console.error("Error fetching duas:", error));

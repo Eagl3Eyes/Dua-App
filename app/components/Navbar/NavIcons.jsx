@@ -7,7 +7,7 @@ const NavIcons = ({ imageLink }) => {
                     <img
                         className="mx-auto"
                         src={imageLink}
-                        alt="home"
+                        alt=""
                     />
                 </div>
             </div>
